@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="" method="POST" id="form">
+        <Label for="name">
+            <span>Nombre</span>
+            <input id="name" name="name"  type="text" placeholder="Ingresa tu nombre">
+        </Label>
+
+        <Label for="email">
+            <span>Email</span>
+            <input id="email" name="email"  type="email" placeholder="Ingresa tu email">
+        </Label>
+        <Label for="number">
+            <span>Telefono</span>
+            <input id="number" name="number"  type="text" placeholder="Ingresa tu telefono">
+        </Label>
+        <Label for="ruc">
+            <span>RUC</span>
+            <input id="ruc" name="ruc"  type="text" placeholder="Ingresa tu ruc">
+        </Label>
+
+        <Label for="ruc">
+            <span>texto</span>
+            <textarea id="message" name="message"  type="text" placeholder="Ingresa tu consulta"></textarea>
+        </Label>
+
+        <input type="submit" name="submit" value="Enviar">
+    </form>
+    
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/form.js"></script>
+</body>
+</html>
